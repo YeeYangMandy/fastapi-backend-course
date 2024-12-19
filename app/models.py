@@ -15,3 +15,4 @@ class User(Base):
     username=Column(String(100), nullable=False)
     password=Column(Integer,nullable=False)
     email=Column(String(100),nullable=True)
+    status=Column(String,nullable=True)
